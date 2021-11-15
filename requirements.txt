@@ -1,0 +1,10 @@
+autopep8==1.6.0
+hmmlearn==0.2.6
+joblib==1.1.0
+numpy==1.21.4
+pycodestyle==2.8.0
+python-speech-features==0.6
+scikit-learn==1.0.1
+scipy==1.7.2
+threadpoolctl==3.0.0
+toml==0.10.2
