@@ -68,7 +68,7 @@ def train_hmm(label):
 
 
 with cf.ThreadPoolExecutor() as executor:
-    speech_models = executor.map(train_hmm, labels, chunksize=3)
+    speech_models = executor.map(train_hmm, labels)
     speech_models = dict(zip(labels, speech_models))
 
 true = 0
